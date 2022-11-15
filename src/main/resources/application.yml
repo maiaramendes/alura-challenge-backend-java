@@ -17,3 +17,9 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+
+security:
+  config:
+    prefix: "Bearer"
+    key: "sYLzehcWaYf6JDWVM3UjlmgVsbeCxajA"
+    expiration: 360000
